@@ -10,5 +10,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 @Mapper
 public interface TestMapper {
-    List<portfolio> getAllDataList();
+    
+    public List<portfolio> getAllDataList();
 }
